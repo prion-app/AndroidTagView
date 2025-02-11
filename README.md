@@ -16,7 +16,7 @@ Add below dependency in your **build.gradle** file.
 
 ```groovy
 dependencies {
-    implementation 'co.lujun:androidtagview:1.1.7'
+    implementation 'co.lujun:androidtagview:1.1.8'
     implementation 'androidx.appcompat:appcompat:1.0.1'
 }
 ```
@@ -215,6 +215,9 @@ mTagcontainerLayout.setTags(tags, colors);
 ```
 
 ## Change logs
+
+### 1.1.8(2025-02-11)
+- Updated gradle, minsdk, repos and dependencies
 
 ### 1.1.7(2019-01-21)
 - Fix bugs
