@@ -1,11 +1,10 @@
-apply plugin: 'com.android.library'
+apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 14
-        targetSdkVersion 28
+        minSdk 26
+        targetSdk 34
         versionCode 117
         versionName "1.1.7"
     }
@@ -20,6 +19,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     testImplementation 'junit:junit:4.12'
-    implementation 'androidx.appcompat:appcompat:1.0.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
 }
-apply from: 'https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish.gradle'
